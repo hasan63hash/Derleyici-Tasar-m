@@ -1,0 +1,82 @@
+% Projemizi IntelliJ Idea'da Java ile geliştirdik. %
+% Aşağıda örnekler mevcuttur. %
+% kod.txt dosyasına kodlar yazarak çalıştırabilirsiniz. %
+% Yorum satırı %
+
+% Değişken tanımlama %
+% 1) String değişken tanımlama %
+a = 'String değişken';
+
+% 2) Integer değişken tanımlama %
+b = 10;
+c = -10;
+
+% 3) Boolean değişken tanımlama %
+d = true; % veya TRUE %
+e = false; % veya FALSE %
+
+% Dört işlem ifadeleri %
+sayi1 = 20;
+sayi2 = 10;
+
+% alternatif: değişken işlem değişken %
+toplam = sayi1 + sayi2;
+fark = sayi1 - sayi2;
+carpim = sayi1 * sayi2;
+bolum = sayi1 / sayi2;
+
+% alternatif: değişken işlem integer %
+sayi3 = sayi1 + 20;
+
+% alternatif: integer işlem integer %
+sayi4 = 5 - 10;
+
+% Print ifadesi %
+% alternatif: prt(string) %
+prt('Hello world');
+
+% alternatif: prt(değişken) %
+a = 20;
+prt(a);
+a = 'String değişken';
+prt(a);
+
+% Input ifadesi %
+ad = enter('Adınızı giriniz:');
+
+% If - koşul ifadeleri %
+% alternatif %
+if(true){
+  prt('true yazan if e girildi.');
+}
+if(false){
+  prt('false yazan if e girilmeyecek o yüzden bu yazı yazılmayacak');
+}
+
+% alternatif: degisken eşitmi degisken %
+sehir1 = 'tokat';
+sehir2 = 'tokat';
+sayi = 20;
+
+if(sehir1 == sehir2){
+  prt('Verilen 2 string eşittir.');
+}
+
+sehir2 = 'adıyaman';
+if(sehir1 != sehir2){
+  prt('Verilen 2 string artık eşit değildir.');
+}
+
+% alternatif: farklı türde değişkenleri karşılaştırma %
+if(sehir1 != sayi){
+  prt('Bu 2 değişken eşit değildir.');
+}
+
+% for ifadeleri %
+for(i, 0, 10, ++){
+  prt(i);
+}
+
+
+
+
